@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+html,
+body{
+    scroll-behavior: smooth;
+}
+.container{
+    display: grid;
+    min-width: 800px;
+    grid: 25vh 30vh 30vh 30vh 30vh 30vh 25vh 40vh 12vh 25vh 35vh 35vh 25vh 25vh 25vh 20vh / 14% 15% 15% 15% 15% 15% 11%;
+}
+.cell1{
+    grid-row: 1/2;
+    grid-column: 1/3;
+    align-self: center;
+}
+.cell1 img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.cell2{
+    grid-row: 2/4;
+    grid-column: 2/7;
+    background-color: white;
+    padding: 5vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    width: 93%;
+    height: 93%;
+}
+.cell2 h1{
+   font-size: 50px;
+   font-weight: 500;
+}
+.cell2 hr{
+    width: 25vw;
+    margin: 2em 0;
+    border: none;
+    height: 2px;
+    background-color: rgb(230, 223, 137);
+    transform: translateX(-10vw);
+}
+.cell2 p{
+    font-size: medium;
+    letter-spacing: 4px;
+    line-height: 1.5;
+}
+.cell3{
+    grid-row: 1/5;
+    grid-column: 5/7;
+    margin-top: 5vh;
+}
+.cell3 img{
+    width: 100%;
+}
+.cell4{
+    grid-row: 1/5;
+    grid-column: 1/8;
+    background-image: url(../img/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+}
+.cell5{
+    grid-row: 3/4;
+    grid-column: 7/8;
+    position: relative;
+}
+.cell5 p{
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 82%;
+    right: 1px;
+    font-size: 0.8em;
+    letter-spacing: 3px;
+}
+.cell6{
+    grid-row: 5/7;
+    grid-column: 2/5;
+}
+.cell6 img{
+    width: 100%;
+}
+.cell7{
+    grid-row: 7/9;
+    grid-column: 3/5;
+}
+.cell7 img{
+    width: 100%;
+}
+.cell8{
+    grid-row: 6/9;
+    grid-column: 5/7;
+    margin-left: 3vw;
+}
+.cell8 hr{
+    width: 35vw;
+    margin-bottom: 2vw;
+    border: none;
+    height: 2px;
+    background-color: white;
+    transform: translateX(-10vw);
+}
+.cell8 h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 1.5vw;
+}
+.cell8 p{
+    line-height: 1.5;
+}
+.cell9{
+    grid-row: 4/10;
+    grid-column: 1/8;
+    background-image: url(../img/history-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.cell10{
+    grid-row: 5/6;
+    grid-column: 7/8;
+}
+.cell10 ul{
+    list-style: none;
+    position: fixed;
+    top: 45%;
+    right: 20px;
+}
+.cell10 a{
+    display: block;
+    border: 2px solid white;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+.cell10 a:hover{
+    background-color: white;
+}
+.cell11{
+    grid-row: 10/11;
+    grid-column: 3/6;
+    align-self: center;
+}
+.cell11 h3{
+    color: white;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+.cell11 hr{
+    border: none;
+    height: 2px;
+    background-color: rgb(230, 223, 137);
+}
+.cell12{
+    grid-row: 11/13;
+    grid-column: 2/3;
+    text-align: center;
+}
+.cell12 p{
+    color: white;
+    font-size: 1.2em;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.cell12 img{
+    width: 90%;
+}
+.cell13{
+    grid-row: 11/13;
+    grid-column: 3/4;
+    text-align: center;
+}
+.cell13 p{
+    color: white;
+    font-size: 1.2em;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.cell13 img{
+    width: 90%;
+}
+.cell14{
+    grid-row: 11/13;
+    grid-column: 4/5;
+    text-align: center;
+}
+.cell14 p{
+    color: white;
+    font-size: 1.2em;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.cell14 img{
+    width: 90%;
+}
+.cell15{
+    grid-row: 11/13;
+    grid-column: 5/6;
+    text-align: center;
+}
+.cell15 p{
+    color: white;
+    font-size: 1.2em;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.cell15 img{
+    width: 90%;
+}
+.cell16{
+    grid-row: 11/13;
+    grid-column: 6/7;
+    text-align: center;
+}
+.cell16 p{
+    color: white;
+    font-size: 1.2em;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.cell16 img{
+    width: 90%;
+}
+.cell17{
+    grid-row: 9/14;
+    grid-column: 1/8;
+    background:  linear-gradient( rgba(73, 69, 69, 0.8), rgba(0, 0, 0, 0.5) ), url(../img/sprits-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;    
+}
+.cell18{
+    grid-row: 14/16;
+    grid-column: 3/6;
+    text-align: center;
+}
+.cell18 h3{
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 4vh;
+}
+.cell18 div>*{
+    background: none;
+    color: white;
+    margin: 0 auto 2vh;
+}
+.cell18 input[type="text"],
+.cell18 input[type="email"],
+.cell18 textarea{
+    display: block;
+    width: 350px;
+    height: 60px;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.cell18 textarea{
+    resize: none;
+}
+.cell18 input[type="text"]::-webkit-input-placeholder,
+.cell18 input[type="email"]::-webkit-input-placeholder,
+.cell18 textarea::-webkit-input-placeholder{
+    color: white;
+}
+.cell18 textarea{
+    padding: 20px 0;
+}
+.cell18 input[type="submit"]{
+    width: 250px;
+    padding: 10px 0;
+    border: 1px solid rgb(230, 223, 137);
+    letter-spacing: 4px;
+    color: rgb(243, 241, 220);
+    margin-top: 3vh;
+}
+.cell19{
+    grid-row: 13/17;
+    grid-column: 1/8;
+    background-image: url(../img/contact-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.cell20{
+    grid-row: 16/17;
+    grid-column: 4/5;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    line-height: 1.5;
+    align-self: center;
+}
